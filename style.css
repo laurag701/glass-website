@@ -7,20 +7,24 @@
 h1 {
   color: #426696;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 3vw;
   opacity: 0.8;
 }
 h2,
 p {
   color: #658ec6;
   font-weight: 500;
+  font-size: 1vw;
   opacity: 0.8;
+
 }
 
 h3 {
   color: #426696;
   font-weight: 600;
+  font-size: 1vw;
   opacity: 0.8;
+
 }
 
 main {
@@ -180,4 +184,30 @@ main {
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 1024px) {
+  .dashboard, .link, .games{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .pro, .status, .card{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .progress, .progress::after, .card-info{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .percentage{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .glass{
+    width: 100%;
+  }
 }
